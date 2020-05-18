@@ -1,0 +1,123 @@
+/* Color palette
+#2B2D42 - DARK BLUE
+#8D99AE - LIGHT BLUE
+#EDF2F4 - BLUE/ WHITE
+#EF233C - RED
+---------------------------------*/
+
+
+/* Global
+---------------------------------*/
+body{
+  font-family: sans-serif;
+  margin-top: 0;
+}
+
+/*Box model fix*/
+html{
+  box-sizing: border-box;
+}
+
+*, *:before, *:after{
+  box-sizing: inherit;
+}
+/*--------------------*/
+
+h1, h2{
+  font-family: cursive;
+  text-transform: capitalize;
+  margin-top: 0;
+}
+
+h2{
+  font-size: 40px;
+}
+
+h1{
+  font-size: 80px;
+}
+
+a{
+  color: #EF233C;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+ul li {
+  line-height: 1.2;
+}
+
+
+h2, p{
+margin: 0;
+}
+
+.content-wrap{
+  max-width: 900px;
+  /*width: 900px; will create horizontal scroll if the width of screen is less*/
+  margin: 0 auto;
+  padding: 5px;
+  overflow: auto;
+
+}
+
+.col-narrow{
+  width: 30%;
+  float: left;
+  /*border: 1px solid black;*/
+}
+
+.col-wide{
+  width: 70%;
+  float: left;
+  padding: 10px;
+  /*border: 2px solid black;*/
+}
+
+/* Header And Footer
+---------------------------------*/
+header, footer{
+    background:#2B2D42 ;
+    color: #8D99AE;
+    display: block;
+}
+
+header{
+  /*text-align: center; */
+}
+
+header h1, header h2{
+    color: #EDF2F4;
+    margin: 0;
+}
+
+footer{
+  text-align: center;
+}
+
+.profile-img{
+  /*width: 300px;*/
+  border-radius: 50%;
+  /*float: left;*/
+  /*margin-right: 10px;*/
+  /*padding: 10px;*/
+}
+.contact-info a{
+  padding: 10px;
+  display: inline-block;
+
+}
+
+/* Work Experience
+---------------------------------*/
+.work{
+    background:#EDF2F4 ;
+}
+
+/* Education
+---------------------------------*/
+.education{
+    background:#8D99AE ;
+}

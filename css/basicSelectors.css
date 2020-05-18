@@ -1,0 +1,44 @@
+body{
+    background: lightblue;
+    color: green;
+}
+
+h2{
+  color: red;
+}
+
+
+#contact-header{
+  /*ID Selector - Based on ID */
+  background: blue;
+}
+
+
+.footer{
+   /*Class selector - Based on class*/
+  background: yellow;
+}
+
+/*
+.class1.class2{
+  Multiple class selector - This will be applied if the element has both classes
+  color: blue;
+}*/
+
+
+
+footer h2 {
+   /*//Descendent selectors - Applied specific to the children*/
+  color: orange;
+}
+
+
+p, h2 {
+   /*// Grouping selectors - Same style applies to all elements*/
+  color: black;
+}
+
+a:hover{
+   /*// Psuedo selector based on state*/
+  color: black;
+}

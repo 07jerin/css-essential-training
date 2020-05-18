@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style media="screen">
+    section{
+      margin: 20px;
+    }
+  </style>
+</head>
+
+<body>
+<h3>Simple Examples</h3>
+
+<h4>with background </h4>
+<section>
+  <div style="background:red;"> This is DIV </div>
+  <div style="background:yellow;">This is DIV </div>
+
+  <span style="background:green;">This is Span </span>
+  <span style="background:orange;">This is Looooong content span </span>
+</section>
+
+<h4>With height and width</h4>
+
+<section>
+  <div style="background:red; height:100px; width :200px;"> This is DIV </div>
+  <div style="background:yellow; height:100px; width :200px;">This is DIV </div>
+
+  <span style="background:green; height:100px; width :200px;">This is Span </span>
+  <span style="background:orange;  height:100px; width :200px;">This is Looooong content span </span>
+</section>
+
+<h4>With height and width and display block </h4>
+
+<section>
+  <div style="background:red; height:100px; width :200px; display:block;"> This is DIV </div>
+  <div style="background:yellow; height:100px; width :200px; display:block;">This is DIV </div>
+
+  <span style="background:green; height:100px; width :200px; display:block;">This is Span </span>
+  <span style="background:orange;  height:100px; width :200px; display:block;">This is Looooong content span </span>
+</section>
+
+<h4>With height and width and display inline-block </h4>
+
+<section>
+  <div style="background:red; height:100px; width :200px; display:inline-block;"> This is DIV </div>
+  <div style="background:yellow; height:100px; width :200px; display:inline-block;">This is DIV </div>
+
+  <span style="background:green; height:100px; width :200px; display:inline-block;">This is Span </span>
+  <span style="background:orange;  height:100px; width :200px; display:inline-block;">This is Looooong content span </span>
+</section>
+
+
+
+<h3> Complex Examples Below </h3>
+
+  <!-- compex example -->
+<section>
+  <div style="background:red">
+    Outer Div
+    <span style="background:lightblue">Inner Span
+      <div style="background:yellow">
+        Inner Div
+        <span style="background:green">Inner inner Span </span>
+      </div>
+     </span>
+  </div>
+  </section>
+
+<!-- with hadrcoded width and height Here the height and width are not affected for inline element -->
+  <section>
+    <div style="background:red; height:100px; width:300px;">
+      Outer Div
+      <span style="background:lightblue; height:100px; width:300px;">Inner Span
+        <div style="background:yellow;height:100px; width:200px;" >
+          Inner Div
+          <span style="background:green; height:100px; width:200px;">Inner inner Span </span>
+        </div>
+       </span>
+    </div>
+    </section>
+
+
+    <!-- with hadrcoded width and height Here the height and width are not affected for inline element -->
+      <section>
+        <div style="background:red; height:100px; width:300px; display:block;">
+          Outer Div
+          <span style="background:lightblue; height:100px; width:300px; display:block;">Inner Span
+            <div style="background:yellow;height:100px; width:200px; display:block;" >
+              Inner Div
+              <span style="background:green; height:100px; width:200px; display:block;">Inner inner Span </span>
+            </div>
+           </span>
+        </div>
+      </section>
+</body>
+</html>
